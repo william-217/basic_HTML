@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 700px; /* Limita a largura para quebrar em duas linhas */
+            margin: 20px auto;
+            gap: 25px; /* Reduz o espaçamento horizontal */
+        }
+
+        .image-container img {
+            width: 120px; /* Ajuste para garantir duas linhas */
+            height: auto;
+            object-fit: contain;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #F3F3F3;
+            color: gray;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        footer img {
+            height: 30px;
+            margin-left: 5px; /* Redução do espaço entre logo e texto */
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Esta é uma página HTML servida pelo NGINX em ambiente Docker pronto para trabalhar com Python e MySQL.</p>
+    
+    <div class="image-container">
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>Programação para Internet 2024/2025 - Professor Thiago Pontes 
+                <small><a href="https://github.com/StorThiago" target="_blank">StorThiago</a></small>
+            </p>
+            <p>ISCTE SINTRA - Tecnologias Digitais Economia e Sociedade</p>
+        </div>
+    </footer>
+</body>
+</html>
