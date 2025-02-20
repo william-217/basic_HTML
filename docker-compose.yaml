@@ -1,7 +1,7 @@
 services:
   app:
     build: ./app
-    container_name: basichtml_app # alterar para seu projeto
+    container_name: basichtml_app
     restart: always
     networks:
       - mynetwork
