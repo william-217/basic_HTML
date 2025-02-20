@@ -1,0 +1,91 @@
+        body {
+            background-color: #d9cbde;
+            font-family: 'Matrix-Book', sans-serif;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #77139f;
+            border: outset #3a0b4d;
+            border-width: 5px;
+            padding: 15px;
+            font-size: 60px;
+        }
+
+        h2 {
+            color: #3a0b4d;
+            font-size: 30px;
+            background-color: #9f135e;
+            margin-left: 33%;
+            margin-right: 33%;
+        }
+
+        .para {
+            font-family: 'Arial';
+            font-style: italic;
+            letter-spacing: -.5px;
+            line-height: 10%;
+            margin: 10px;
+            color: #9f135e;
+        }
+
+        ul {
+            list-style-position: inside;
+        }
+
+        .image-container {
+            padding: 30px;
+            border: solid #3a0b4d;
+            border-width: 5px;
+            border-radius: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 700px; /* Limita a largura para quebrar em duas linhas */
+            margin: 20px auto;
+            gap: 25px; /* Reduz o espaçamento horizontal */
+        }
+
+        .image-container img {
+            width: 400px; /* Ajuste para garantir duas linhas */
+            height: auto;
+            object-fit: contain;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #F3F3F3;
+            color: gray;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        footer img {
+            height: 30px;
+            margin-left: 5px; /* Redução do espaço entre logo e texto */
+            vertical-align: middle;
+        }

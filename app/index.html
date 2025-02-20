@@ -3,89 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>HTML Básico</title>
-    <style>
-        body {
-            background-color: #d9cbde;
-            font-family: 'Matrix-Book', sans-serif;
-            text-align: center;
-            padding: 50px;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        h1 {
-            color: #77139f;
-        }
-
-        .para {
-            font-display: 'Matrix-Book';
-            color: #9f135e;
-        }
-
-        ul {
-            list-style-position: inside;
-        }
-
-        .image-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            max-width: 700px; /* Limita a largura para quebrar em duas linhas */
-            margin: 20px auto;
-            gap: 25px; /* Reduz o espaçamento horizontal */
-        }
-
-        .image-container img {
-            width: 400px; /* Ajuste para garantir duas linhas */
-            height: auto;
-            object-fit: contain;
-        }
-
-        footer {
-            width: 100%;
-            background-color: #F3F3F3;
-            color: gray;
-            text-align: center;
-            padding: 15px;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .footer-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        footer p {
-            margin: 5px 0;
-            font-size: 12px;
-            white-space: nowrap;
-        }
-
-        footer img {
-            height: 30px;
-            margin-left: 5px; /* Redução do espaço entre logo e texto */
-            vertical-align: middle;
-        }
-    </style>
 </head>
 <body>
     <h1>Hello, World!</h1>
+    <h2>Welcome to my page!</h2>
     <p>This is a test page where I try to get accostumed with HTML. In this page you will find a list of my favorite hobbies.</p>
     <ul style="list-style-type:circle;">
         <li>Table Top games</li>
         <li>Trading Card games</li>
         <li>Game Design</li>
-        <li>Literature</li>
+        <li><a href= "https://www.royalroad.com/fiction/69518/tribute-side-one" target="_blank">Fantasy Literature</a></li>
       </ul>
     
     <p class="para">Below is an image that links to a wiki where I have worked to develop on one of the previously mentioned hobbies.</p>
