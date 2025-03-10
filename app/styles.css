@@ -1,4 +1,4 @@
-        body {
+        .bodyCustom {
             background-color: #d9cbde;
             font-family: 'Matrix-Book', sans-serif;
             text-align: center;
@@ -9,7 +9,7 @@
             min-height: 100vh;
         }
 
-        a {
+        .a2 {
         text-decoration: none; 
         color:rgb(26, 127, 93)}
 
