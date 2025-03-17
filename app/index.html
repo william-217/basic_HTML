@@ -4,17 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="./images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
     <title>HTML Básico</title>
 </head>
 <div class="alert alert-primary" role="alert">
-    Check <a href = https://yugipedia.com/wiki/Mekk-Knight_Avram#/media/File:MekkKnightAvram-FLOD-EN-C-1E.png> <strong>THIS</strong></a> out!
+    Check <a target="_blank" href = https://yugipedia.com/wiki/Mekk-Knight_Avram#/media/File:MekkKnightAvram-FLOD-EN-C-1E.png> <strong>THIS</strong> </a> out!
   </div>
 <body class="bodyCustom">
+    <header>
     <h1>Hello, World!</h1>
     <h2>Welcome to my page!</h2>
     <p>This is a test page where I try to get accostumed with HTML, CSS and Bootstrap. In this page you will find a list of my favorite hobbies.</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Table Top games</a>
+              <a class="dropdown-item" href="#">Trading Card games</a>
+              <a class="dropdown-item" href="#">Game Design</a>
+              <a class="dropdown-item" href="#"><a class="a2" href="https://x.com/MangaMoguraRE" target="_blank">Manga</a></a>
+              <a class="dropdown-item" href="#"><a href= "https://www.royalroad.com/fiction/69518/tribute-side-one" target="_blank" class="lamp">Fantasy Literature</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+
+              <ul style="list-style-type:circle;">
+                <li>Table Top games</li>
+                <li>Trading Card games</li>
+                <li>Game Design</li>
+                <li><a class="a2" href="https://x.com/MangaMoguraRE" target="_blank">  Manga</a></li>
+                <li><a href= "https://www.royalroad.com/fiction/69518/tribute-side-one" target="_blank" class="lamp">Fantasy Literature</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
     <div class="container text-center">
         <div class="row">
           <div class="col">
@@ -49,25 +99,30 @@
         </div>
       </div>
     
-    <ul style="list-style-type:circle;">
-        <li>Table Top games</li>
-        <li>Trading Card games</li>
-        <li>Game Design</li>
-        <li><a class="a2" href="https://x.com/MangaMoguraRE" target="_blank">  Manga</a></li>
-        <li><a href= "https://www.royalroad.com/fiction/69518/tribute-side-one" target="_blank" class="lamp">Fantasy Literature</a></li>
-      </ul>
-    
     <p class="para">Below is an image that links to a wiki where I have worked to develop on one of the previously mentioned hobbies.</p>
     <div class="image-container">
         <a href="https://harmonyc-khaos-tcg.fandom.com/wiki/HKTCG_Wiki" target="_blank">
-            <img src="https://i.imgur.com/gkRmZGF.png">
+            <img src="https://static.wikia.nocookie.net/banned-camp/images/b/b5/Dragonforce.png">
         </a>
     </div>
 
-    <footer>
-        <div class="footer-content">
-        </div>
-    </footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">Harmonyc Khaos Inc. ©️ 2025</p>
+            
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="satanjumpscare1.html" class="nav-link px-2 text-body-secondary">Satan Jumpscare 1</a></li>
+                <li class="nav-item"><a href="satanjumpscare2.html" class="nav-link px-2 text-body-secondary">Satan Jumpscare 2</a></li>
+                <li class="nav-item"><a href="docker.html" class="nav-link px-2 text-body-secondary">Docker</a></li>
+            </ul>
+        </footer>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body class="bodyCustom">
+</body>
 </html>

@@ -33,6 +33,13 @@
             margin-right: 33%;
         }
 
+        h3 {
+            color: #186ae7;
+            font-style:bold;
+            padding: 15px;
+            font-size: 60px;
+        }
+
         .para {
             font-family: 'Arial';
             font-style: italic;
@@ -72,7 +79,7 @@
             object-fit: contain;
         }
 
-        footer {
+        /* footer {
             width: 100%;
             background-color: #F3F3F3;
             color: gray;
@@ -100,6 +107,6 @@
 
         footer img {
             height: 30px;
-            margin-left: 5px; /* Redução do espaço entre logo e texto */
+            margin-left: 5px; /* Redução do espaço entre logo e texto
             vertical-align: middle;
-        }
+        } */
