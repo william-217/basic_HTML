@@ -1,4 +1,4 @@
-        body {
+        .bodyCustom {
             background-color: #d9cbde;
             font-family: 'Matrix-Book', sans-serif;
             text-align: center;
@@ -9,7 +9,7 @@
             min-height: 100vh;
         }
 
-        a {
+        .a2 {
         text-decoration: none; 
         color:rgb(26, 127, 93)}
 
@@ -31,6 +31,13 @@
             background-color: #9f135e;
             margin-left: 33%;
             margin-right: 33%;
+        }
+
+        h3 {
+            color: #186ae7;
+            font-style:bold;
+            padding: 15px;
+            font-size: 60px;
         }
 
         .para {
@@ -72,7 +79,7 @@
             object-fit: contain;
         }
 
-        footer {
+        /* footer {
             width: 100%;
             background-color: #F3F3F3;
             color: gray;
@@ -100,6 +107,6 @@
 
         footer img {
             height: 30px;
-            margin-left: 5px; /* Redução do espaço entre logo e texto */
+            margin-left: 5px; /* Redução do espaço entre logo e texto
             vertical-align: middle;
-        }
+        } */
